@@ -9,7 +9,7 @@ const buttonSubmit = document.querySelector('#submit');
 
 // }
 
-const nameSelector = async () => {
+const nameSelector = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             let selectedName = null;
